@@ -1,0 +1,941 @@
+
+
+body {
+
+  background-color: rgb(231, 231, 231);
+  
+  margin: 0em;
+
+  font-family: sans-serif;
+}
+
+
+ul{
+
+  
+  list-style: none;
+ 
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  color: aliceblue;
+  background-color: rgb(30, 30, 172);
+  margin: 0;
+  padding: 0.2em;
+
+}
+
+.hide-mobile{
+
+  display: none;
+}
+
+.header-list{
+
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}
+
+.header-icons{
+  width: 20%;
+  display: flex;
+  justify-content: space-around; 
+  padding: 0.5em; 
+}
+
+.frm-search{
+
+  padding: 0.5em;
+  background-color: rgb(255, 255, 255);
+  margin-top: 0.8em;
+  margin-bottom: 0.9em;
+}
+
+.py-2{
+  
+  width: 100%;
+  height: 100%;
+margin: 0em;
+padding: 0em;
+
+}
+
+.search-icon-btn{
+
+  background-color: rgb(29, 45, 189);
+}
+
+.right{
+  padding: 0em;
+  background-position-y: calc(100% -2em);
+}
+.car-details-carousel{
+
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+.carousel-col-2{
+
+  background-color: rgb(255, 255, 255);
+  bottom: 0;
+  
+  padding: 0em;
+}
+
+.carousel{
+
+  
+
+  padding: 0em;
+  margin: 0px;
+}
+
+header nav ul{
+
+  text-align: left;
+  width: 50%;
+  right: 0;
+  position: absolute;
+}
+
+.c-2{
+
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.used{
+  
+  color: gray;
+  font-size: 0.7em;
+}
+
+.p-1{
+
+  font-weight: bold;
+  font-size: 0.9em;
+  margin-right: 1em;
+  padding: 0em;
+  margin-bottom: 0em;
+}
+
+.address{
+
+  padding: 0em;
+  color: gray;
+  font-size: 0.6em;
+  margin-top: 0em;
+  border-bottom: 1px solid gray;
+  padding-bottom: 5px;
+}
+
+.hours{
+  font-weight: bold;
+  font-size: 1em;
+  color: black;
+}
+
+.price{
+
+  font-weight: bold;
+  color: #28A745;
+}
+
+.extras{
+
+  font-size: 0.85em;
+}
+
+.seller-info{
+
+  margin-top: 6px;
+  padding: 0em;
+  margin-bottom: 0em;
+  font-size: 0.9em;
+  color: gray;
+  
+}
+
+.seller-certificate{
+  color: blue;
+  margin-bottom: 0em;
+}
+
+
+.p-l{
+  font-size: 0.9em;
+}
+
+.green-btn{
+
+  background-color: rgb(31, 179, 97);
+  width: calc(100%-1em);
+  display: block;
+  border-radius: 2px;
+  color: white;
+  text-align: center;
+  margin-bottom: 2.5em;
+ 
+}
+
+.lin-1{
+
+   border-top: 1px solid rgb(177, 174, 174);
+
+   margin-left: -0.7em;
+   margin-right: -0.7em;
+   margin-bottom: 0em;
+   padding: 0em;
+   
+}
+
+.send-seller-msg{
+  
+
+  display: flex;
+  justify-content: space-between;
+  padding: 0.6em;
+  margin-top: 0.8em;
+
+  
+  padding: 0em;
+
+
+  
+}
+
+.avl-msg-slr{
+
+  width: calc(100%-1em);
+  display: block;
+  border-radius: 2px;
+  
+  padding-left: 5px;
+  margin: 0em;
+
+  border: 1px solid rgb(173, 173, 173);
+}
+
+.blue-btn{
+
+  background-color: rgb(43, 31, 212);
+  width: calc(100%-1em);
+  display: block;
+  border-radius: 2px;
+  color: white;
+  text-align: center;
+  padding: 0em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+ 
+}
+
+.wishlist ul{
+
+  display: flex;
+  justify-content: space-around;
+  padding: 0em;
+  color: gray;
+  font-size: 0.8em;
+  margin-top: 10px;
+  margin-bottom: 0em;
+  text-align: center;
+  
+  width: 85%;
+  padding-left: 4.5em;
+  white-space: nowrap;
+}
+
+.box-list{
+
+  text-align: match-parent;
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+  padding: 0em;
+  margin: 0em;
+  font-size: 0.8em;
+  
+}
+
+.not-bold-list{
+  padding-left: 0em;
+  margin-left: 0em;
+  white-space: nowrap;
+}
+
+.bold-list{
+  font-weight: bold;
+}
+
+.card-col-2{
+  display: flex;
+  justify-content: flex-start;
+
+  padding: 0em;
+  margin: 0em;
+}
+
+
+
+.cols-3{
+  
+  display: flex;
+
+  justify-content: space-evenly;
+  
+  text-align: center;
+  padding: 0em;
+  padding-right: 2.6em;
+  margin: 0em;
+  font-size: 0.7em;
+  
+}
+
+.first{
+  text-align: center;
+  font-size: 60%;
+  white-space: nowrap;
+  
+  
+}
+.second{
+  text-align: center;
+  font-size: 60%;
+  white-space: nowrap;
+}
+.third{
+  text-align: center;
+  font-size: 60%;
+  white-space: nowrap;
+}
+
+footer{
+  text-align: center;
+  height: 50%;
+  padding-left: 0em;
+  margin: 0.8em;
+  font-size: 130%;
+
+}
+
+.card-picture{
+
+  display: flex;
+  justify-content: space-between;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEiKN2OV3ouiXjgh1S1UecESL3ismi7BDR0-8Hak4rKHxiNqlR&s);
+
+   background-repeat: no-repeat;
+   background-size: 100%;
+   height: 45.6%;
+   background-clip: border-box;
+   
+   margin: 0em;
+   
+  vertical-align: bottom;
+  text-align: end;
+  width: auto;
+  
+  padding-top: 30%;
+  padding-bottom: 8%; 
+
+   position: relative;
+
+}
+
+.pic-para-2{
+
+  
+  
+  color: rgb(129, 129, 129);
+  
+  font: outline;
+  font-weight: bold;
+  margin-bottom: 0.25em;
+ 
+  
+
+  background-color: black;
+  height: 1.2em;
+  padding-top: 0em;
+  padding-bottom: 1.4em;
+  padding-right: 0.3em;
+  padding-left: 0.3em;
+  
+  margin: 1em;
+
+  display: block;
+  border-radius: 0.55em;
+ position: absolute;
+ bottom: 5%;
+ right: 0em;
+
+
+}
+.pic-para{
+
+  
+  
+  color: rgb(129, 129, 129);
+  
+  font: outline;
+  font-weight: bold;
+  margin-bottom: 1em;
+  
+  
+
+  background-color: black;
+  height: 1.2em;
+  padding-top: 0em;
+  padding-bottom: 1.4em;
+  padding-right: 0.3em;
+  padding-left: 0.3em;
+  
+  margin: 1em;
+
+  display: block;
+  border-radius: 0.55em;
+ position: absolute;
+ bottom: 5%;
+ left: 0em;
+
+
+ 
+ 
+}
+
+
+
+.card-description{
+
+  background-color: white;
+  size: 100%;
+  padding: 0em;
+  position: relative;
+
+}
+
+.card-location{
+  bottom: 0em;
+  padding-left: 0em;
+  margin-left: 1em;
+  
+}
+
+
+
+.card-description{
+
+  background-color: white;
+  size: 100%;
+  padding: 0em;
+
+}
+
+
+
+.card-car-type{
+  margin: 0em;
+  padding: 0em;
+  font-weight: bold;
+  font-size: 0.9em;
+  margin-left: 1em;
+  
+}
+
+.card-list-1{
+  padding: 0em;
+  color: gray;
+  font-size: 0.8em;
+  margin-left: 1em;
+}
+
+.card-list-2{
+
+  padding: 0em;
+  margin-left: 1.8em;
+  color: gray;
+  font-size: 0.8em;
+}
+
+.card-car-features{
+
+  padding: 0em;
+  margin-top: 0.5em;
+  font-size: 0.7em;
+  margin-left: 1em;
+
+}
+
+
+
+.cols-2{
+
+  padding: 0em;
+  margin: 0em;
+ 
+}
+
+.lonely{
+  margin-bottom: 0em;
+  margin-top: 0.2em;
+  padding: 0em;
+}
+
+.copy-right{
+
+  white-space: nowrap;
+  font-size: 0.4em;
+ 
+}
+
+.grid{
+  margin: 0.2em auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  grid-column-gap: 0.6em;
+  grid-row-gap: 0.6em;
+  grid-template-rows: 360px;
+  grid-auto-rows: 360px;
+
+}
+
+.carousel-info-box{
+
+  padding: 0.8em;
+  margin: 0em;
+  text-align: left;
+  font-size: .9em;
+}
+
+@media only screen and (min-width:1090px){
+
+  .post-ad{
+
+    width: 100%;
+
+    background-color: rgb(71, 2, 71);
+    
+    display: block;
+    border-radius: 2px;
+    color: white;
+    text-align: center;
+    margin-bottom: 0.5em;
+  }
+
+ 
+
+  .show-desktop{
+
+    display: inherit;
+  }
+
+  .hide-mobile{
+    display: inherit;
+  }
+
+  .hide-desktop{
+
+    display: none;
+  }
+
+
+  .carousel-info-box{
+
+    margin-bottom: 1em;
+    font-size: 0.6em;
+  }
+  .extras{
+
+    clip: inherit;
+  }
+
+  .box-list{
+    clip: inherit;
+  }
+
+  .left{
+    
+    width: fit-content;
+    float: left;
+    margin-right: 1em;
+    padding: 0em;
+    margin-left: 0em;
+    position: relative;
+    position: absolute;
+   
+    
+    overflow-x: hidden;
+    white-space:nowrap;
+
+    
+    left: 0;
+    top: 10%;
+    
+    
+  }
+  .cols-2{
+    
+    height: 100%;
+    padding: 0em;
+    margin: 0em;
+    position: relative;
+    left: -8em;
+  }
+  
+
+  .price-box{
+    width: 20px;
+    padding: 0em;
+    margin: 0em;
+  }
+  .condition-box{
+
+    
+    padding: 0em;
+    margin: 0em;
+
+    border-radius: 0.25em;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(153, 153, 153);
+    background-color: white;
+    padding-left: 0.5em;
+    
+  }
+  
+  .con-in{
+    border-radius: 0.25em;
+    width: 80%;
+  }
+  .pric-in{
+    border-radius: 0.25em;
+  }
+
+  .loc-in{
+    border-radius: 0.25em;
+    width: 80%;
+    
+   
+  }
+
+  .v-1-in{
+    border-radius: 0.25em;
+    width: 1850%;
+  }
+  .v-2-in{
+    border-radius: 0.25em;
+    width: 1850%;
+  }
+  .v-3-in{
+    border-radius: 0.25em;
+    width: 1850%;
+  }
+.year-in-1{
+  border-radius: 0.25em;
+
+}
+.year-in-2{
+  border-radius: 0.25em;
+}
+
+  .mil-in-1{
+    border-radius: 0.25em;
+  }
+
+  .mil-in-2{
+    border-radius: 0.25em;
+  }
+
+  .fuel-in{
+    border-radius: 0.25em;
+    width: 1850%;
+  }
+
+  .drv-in{
+    border-radius: 0.25em;
+    width: 1850%;
+  }
+
+  .trans-in{
+    border-radius: 0.25em;
+    width: 1850%;
+  }
+
+  .colour-in{
+    border-radius: 0.25em;
+    width: 1850%;
+  }
+
+  .location-box{
+    
+    padding: 0em;
+    margin: 0em;
+    border-radius: 0.25em;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(153, 153, 153);
+    background-color: white;
+    padding-left: 0.5em;
+  }
+
+  .vehicle-det-box{
+
+    width: 20px;
+    padding: 0em;
+    margin: 0em;
+  }
+
+  .fuel-box{
+    width: 20px;
+    padding: 0em;
+    margin: 0em;
+  }
+
+  .drv-trn-box{
+    width: 20px;
+    padding: 0em;
+    margin: 0em;
+  }
+
+  .trans-typ-box{
+    width: 20px;
+    padding: 0em;
+    margin: 0em;
+  }
+
+  .colour-box{
+    width: 20px;
+    padding: 0em;
+    margin: 0em;
+  }
+
+  .winter-is-coming{
+    width: 400px;
+    
+    margin: 0em;
+
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ9pxkPfabPYLm7saJ3MJireZyUIb2t6qJhDUAoOYRGy-yLWWhN);
+    
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 600px;
+    background-clip: border-box;
+    
+    
+   vertical-align: bottom;
+   text-align: center;
+   
+   
+   
+   padding-bottom: 30em; 
+ 
+    position: relative;
+  }
+
+  .click-here{
+    color: rgb(204, 204, 204);
+  
+  font: outline;
+  font-weight: bold;
+  
+ 
+  width: 100%;
+
+  background-color: rgb(46, 45, 45);
+  height: 1.2em;
+  
+  opacity: 80%;
+  text-decoration: none;
+  
+  margin: 1em;
+
+  display: block;
+  border-radius: 0.25em;
+ position: absolute;
+ bottom: 5%;
+ left: -1em;
+ margin-bottom: 3em;
+  }
+
+  .vehicle-det-box{
+
+    display: block;
+    justify-content: space-between;
+  }
+  .v-1{
+    margin-bottom: 1em;
+  }
+  .v-2{
+    margin-bottom: 1em;
+  }
+  .form-group{
+    
+    margin-right: 200em;
+    margin-top: 2em;
+    padding: 0em;
+    
+    left: 0em;
+    position: relative;
+
+  }
+
+  .year-box{
+
+    width: 20%;
+  }
+
+  .mileage-box{
+
+    width: 20%;
+  }
+
+  .header-icons{
+
+    width: 5%;
+  }
+
+  body{
+
+    width: 100%;
+
+    padding: 0.1px;
+    margin: 0px;
+    overflow-x: hidden;
+    
+  }
+
+  .right{
+    float: right;
+   
+    margin-left: 1em;
+    position: relative;
+    padding: 0em;
+    
+  }
+
+  .grid{
+
+    margin-top: 1%;
+    margin-bottom: 5em;
+    grid-template-columns: 1fr,1fr,1fr,1fr;
+    overflow-x: hidden;
+  }
+
+ 
+
+  .carousel{
+    
+    width: 66%;
+    float: left;
+
+    height: 100%;
+    
+
+    top: 8em;
+    display: block;
+   
+    margin-bottom: 30%;
+ 
+  }
+
+  footer{
+    
+    font-size: 1.6em;
+    margin-right: 150em;
+    padding-right: 20em;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    
+  
+  }
+
+  .cols-3{
+
+    padding: em;
+    margin: 0em;
+  }
+
+  .first{
+    padding: 1em;
+    margin-right: 10em;
+  }
+
+  .second{
+    padding: 1em;
+    margin-right: 10em;
+  }
+
+
+.header-list li {
+
+  margin-left: 1em;
+}
+
+.header-list{
+
+  white-space: nowrap;
+}
+
+  .third{
+
+    padding: 1em;
+    
+    
+  }
+  .carousel-info-box{
+    width: 34%;
+    
+
+    float: right;
+    
+    background-color: white;
+    position: sticky;
+    font-size: 0.8em;
+  }
+
+  .right{
+
+    width: 80%;
+    right: -16.5em;
+    margin-right: 0em;
+    margin-left: 1em;
+    padding-right: 0em;
+
+  
+  
+  }
+
+  .carousel-col-2{
+
+   padding: 0%; 
+   position: relative;
+   
+   margin: 0em;
+   height: 50%;
+   
+  }
+
+  .card-location{
+
+    margin-bottom: 2em;
+  }
+
+  .card-description{
+
+    padding-bottom: 1em;
+    
+  }
+
+}
